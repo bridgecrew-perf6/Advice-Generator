@@ -110,7 +110,7 @@ Pretendo continuar fazendo projetos do FrontendMentor, para melhorar meus conhec
 - [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - A documentação do Developer Mozilla é essencial para compreender as funções e conseguir aplicar as mesmas no projeto.
 - [Advice Slip](https://api.adviceslip.com/) - Esta é uma API que eu consumi para pegar as frases de conselho. 
 
-## Autor
+## 	:medal_military: Autor
 
 - Frontend Mentor - [@michelwene](https://www.frontendmentor.io/profile/michelwene)
 - Linkedin - [@michelwene](https://www.linkedin.com/in/michelwene/)
