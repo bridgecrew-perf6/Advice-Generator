@@ -29,22 +29,22 @@ Os usuários devem ser capazes de:
 
 - Desktop
 <p  align="center" >
-  <img src="assets/desktop.png"alt="Desktop"/>
+  <img src="./assets/desktop.png"alt="Desktop"/>
 </p>
 
 - Tablet
 <p  align="center" >
-<img src="assets/tablet.png"alt="Tablet"/>
+<img src="./assets/tablet.png"alt="Tablet"/>
 </p>
 
 - Mobile
 <p  align="center" >
-<img src="assets/mobile.png"alt="mobile"/>
+<img src="./assets/mobile.png"alt="mobile"/>
 </p>
 
 - Gif
 <p  align="center" >
-<img src="assets/Advice-Generator.gif">
+<img src="./assets/Advice-Generator.gif">
 </p>
 
 ### Links
