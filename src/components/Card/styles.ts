@@ -32,6 +32,7 @@ export const Container = styled.section`
       font-size: 1.5rem;
       margin: 0 2.5rem;
       padding-bottom: 2.5rem;
+      text-align: center;
     }
 
     img {
