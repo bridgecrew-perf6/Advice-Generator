@@ -7,6 +7,7 @@ export const Container = styled.section`
 
   height: 100vh;
 
+
   div {
     align-items: center;
     display: flex;
@@ -18,6 +19,11 @@ export const Container = styled.section`
 
     max-width: 500px;
     height: auto;
+
+    @media (max-width: 720px){
+      width: calc(100vw - 6rem);
+      margin: 0 auto;
+    }
 
     h1 {
       color: var(--background-title);
