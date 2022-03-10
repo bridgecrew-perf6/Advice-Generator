@@ -1,3 +1,11 @@
+import { Card } from "./components/Card";
+import { GlobalStyle } from "./styles/global";
+
 export function App() {
-  return <h1>Hellow Word</h1>;
+  return (
+    <>
+      <Card />
+      <GlobalStyle />;
+    </>
+  );
 }
