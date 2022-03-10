@@ -1,4 +1,4 @@
-# Frontend Mentor - Calculator app
+# Frontend Mentor - Advice Generator
 
 Esta é uma solução para o [Advice-generator](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação ao construir projetos realistas.
 
