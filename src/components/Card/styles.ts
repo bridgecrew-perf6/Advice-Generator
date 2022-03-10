@@ -41,8 +41,10 @@ export const Container = styled.section`
       text-align: center;
     }
 
-    img {
+    & > img {
       padding-bottom: 2rem;
+      width: calc(100% - 5rem);
+
     }
 
     button {
@@ -64,9 +66,8 @@ export const Container = styled.section`
         box-shadow: 0 0 10px var(--background-title),
           0 0 40px var(--background-title), 0 0 80px var(--background-title);
       }
-      img {
+      & > img {
         position: relative;
-        top: 25%;
       }
     }
   }

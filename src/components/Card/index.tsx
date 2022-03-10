@@ -1,8 +1,8 @@
-import { Container } from "./styles";
-import dividerDesktop from "../../assets/divider-desktop.svg";
-import iconDice from "../../assets/icon-dice.svg";
 import { api } from "../../services/api";
 import { useEffect, useState } from "react";
+import dividerDesktop from "../../assets/divider-desktop.svg";
+import iconDice from "../../assets/icon-dice.svg";
+import { Container } from "./styles";
 
 interface CardProps {
   slip: {

@@ -29,17 +29,17 @@ Os usuários devem ser capazes de:
 
 - Desktop
 <p  align="center" >
-  <img src="assets/images/desktop.png"alt="Imagem-Desktop"/>
+  <img src="assets/desktop.png"alt="Desktop"/>
 </p>
 
 - Tablet
 <p  align="center" >
-<img src="assets/images/tablet.png"alt="Imagem-Tablet"/>
+<img src="assets/tablet.png"alt="Tablet"/>
 </p>
 
 - Mobile
 <p  align="center" >
-<img src="assets/images/mobile.png"alt="Imagem-mobile"/>
+<img src="assets/mobile.png"alt="mobile"/>
 </p>
 
 - Gif
@@ -57,12 +57,48 @@ Os usuários devem ser capazes de:
 ### Construído com
 
 - ReactJS
+- Typescript
 - Axios
 - Styled-Components
 - Design responsivo
 
 ### :bulb: O que eu aprendi
+```typescript
+interface CardProps {
+  slip: {
+    id: number;
+    advice: string;
+  };
+}
 
+export function Card() {
+  const [advices, setAdvices] = useState<CardProps | null>();
+
+  const setNewAdvice = async () => {
+    const { data } = await api.get("advice");
+
+    setAdvices(data);
+  };
+
+  useEffect(() => {
+    setNewAdvice();
+
+    //eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  return (
+    <Container>
+      <div>
+        <h1>Advice #{advices?.slip.id}</h1>
+        <p>{advices?.slip.advice}</p>
+        <img src={dividerDesktop} alt="Divider" />
+        <button type="button" onClick={setNewAdvice}>
+          <img src={iconDice} alt="Dice" />
+        </button>
+      </div>
+    </Container>
+
+    //Neste componente contruido com typescript, eu chamei uma api responsável por trazer as frases mostradas na página, e pude colocar em prática os conceitos aprendidos em outra projetos sobre o typescript.
+```
 
 ### Continuação dos desenvolvimentos
 
