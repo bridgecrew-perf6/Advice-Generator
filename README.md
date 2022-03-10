@@ -2,7 +2,7 @@
 
 Esta é uma solução para o [Advice-generator](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação ao construir projetos realistas.
 
-## Resumo de conteúdos
+## :dart: Resumo de conteúdos
 
 - [Visão Geral](#Visão-Geral)
   - [O desafio](#O-desafio)
@@ -17,7 +17,7 @@ Esta é uma solução para o [Advice-generator](https://www.frontendmentor.io/ch
 
 ## Visão Geral.
 
-### O desafio
+### :globe_with_meridians: O desafio
 
 Os usuários devem ser capazes de:
 
@@ -52,7 +52,7 @@ Os usuários devem ser capazes de:
 - Solução URL: [https://github.com/michelwene/Advice-Generatorp](https://github.com/michelwene/Advice-Generator)
 - Site URL: [https://advice-generator-9qntgsq9w-michelwene.vercel.app/](https://advice-generator-9qntgsq9w-michelwene.vercel.app/)
 
-## Meu processo
+## :page_with_curl: Meu processo
 
 ### Construído com
 
